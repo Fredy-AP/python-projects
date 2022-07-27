@@ -1,5 +1,9 @@
 #hallar el mcm
 
+x=float(input("por favor digitar el numero "))
+y=float(input("por favor digitar el numero "))
+
+
 
 def mcm(x,y):
     z=max(x,y)
@@ -12,7 +16,7 @@ def mcm(x,y):
         z+=1
 
 
-print(mcm(2,4))
+print('el minimo comun multiplo es ', mcm (x,y))
 
 
 
