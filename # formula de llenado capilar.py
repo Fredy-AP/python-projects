@@ -4,7 +4,7 @@
 
 tiempo=float(input("digitar el tiempo en segundos"))
 
-if(tiempo>=5):
+if(tiempo>5):
     print("choque")
     if(2<=tiempo<=5):
         print('retraso')
